@@ -1,10 +1,9 @@
-{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Student Registration Form</title>
+  <title>STudent Registration Form</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
@@ -13,8 +12,8 @@
       <div class="flex border-4 border-[#0C5F52]">
         <div class="flex-1 bg-[#0C5F52] p-8 flex justify-center items-center">
           <img
-            src="templates/ciu-logo.png"
-            alt="ciu-logo"
+            src="{}"
+            alt="Logo"
             class="w-full max-w-[200px]"
             style="aspect-ratio: 200 / 200; object-fit: cover"
             width="200"
@@ -44,13 +43,13 @@
                     class="flex h-10 bg-background text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 w-full p-3 border-2 border-[#0C5F52] rounded-md"
                     id="firstName"
                     placeholder="Enter your first name"
-                    name="first_name"
+                    name="firstName"
                   />
                 </div>
                 <div class="space-y-1">
                   <label
                     class="text-sm leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 text-[#0C5F52] font-[Agency FB] font-bold"
-                    for="last_name"
+                    for="lastName"
                   >
                     Last Name
                   </label>
@@ -58,7 +57,7 @@
                     class="flex h-10 bg-background text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 w-full p-3 border-2 border-[#0C5F52] rounded-md"
                     id="lastName"
                     placeholder="Enter your last name"
-                    name="last_name"
+                    name="lastName"
                   />
                 </div>
               </div>
@@ -92,13 +91,13 @@
                 <div class="space-y-1">
                   <label
                     class="text-sm leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 text-[#0C5F52] font-[Agency FB] font-bold"
-                    for="entry_scheme"
+                    for="entryScheme"
                   >
                     Entry Scheme
                   </label>
                   <select
-                    id="entry_scheme"
-                    name="entry_scheme"
+                    id="entryScheme"
+                    name="entryScheme"
                     class="w-full p-3 border-2 border-[#0C5F52] rounded-md"
                   >
                     <option value="">Select Entry Scheme</option>
@@ -203,7 +202,7 @@
                     class="flex h-10 bg-background text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 w-full p-3 border-2 border-[#0C5F52] rounded-md"
                     id="dob"
                     type="date"
-                    name="date_of_birth"
+                    name="dob"
                   />
                 </div>
                 <div class="space-y-1">
